@@ -1,0 +1,3 @@
+The objective is to create a easy to use way to create windows application. It uses directly the windows api.
+
+-> mainwindow : equivalent of mainwindow.
