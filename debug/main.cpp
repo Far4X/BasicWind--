@@ -5,6 +5,12 @@
 #include <windows.h>
 #include <iostream>
 #include <wingdi.h>
+#include <d2d1.h>
+#include "../Classes/Objects/MainWindow.hpp"
+#include "../Classes/Objects/Window.hpp"
+
+#pragma comment(lib, "d2d1")
+
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
@@ -80,7 +86,7 @@ LRESULT CALLBACK WindowProc(HWND HandlerWindow, UINT uMsg, WPARAM wParam, LPARAM
                 HDC hdc = BeginPaint(HandlerWindow, &ps);
 
                 // All painting occurs here, between BeginPaint and EndPaint.
-                std::cout << "Painting" << std::endl;
+                std::cout << "Painting in white" << std::endl;
                 FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW + 1));
 
                 EndPaint(HandlerWindow, &ps);

@@ -9,8 +9,9 @@
 
 class Window {
 public :
-    Window::Window(Window& parent);
-    Window::~Window();
+    Window(Window& parent);
+    Window();
+    ~Window();
 
 private :
     std::vector<Window> m_childs;
