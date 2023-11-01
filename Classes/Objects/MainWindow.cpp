@@ -1,6 +1,7 @@
 #include "MainWindow.hpp"
 
-MainWindow::MainWindow() {
+MainWindow::MainWindow(int nCmdShow) : SourceWindow(nCmdShow){
+
 }
 
 MainWindow::~MainWindow(){

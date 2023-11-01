@@ -13,7 +13,7 @@
 
 class MainWindow : public SourceWindow{
 public : 
-    MainWindow();
+    MainWindow(int nCmdShow);
     ~MainWindow();
     
 };
