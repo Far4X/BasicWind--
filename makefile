@@ -1,4 +1,6 @@
 #Problème : mettre le makefile plus bas dans l'arbo pour pouvoir compiler également les classes
+#Useless. Utiliser le compilateur fourni avec l'ide
+
 
 CXX = g++
 EXEC = BasicWind
@@ -16,14 +18,13 @@ all : $(EXEC)
 debug : $(DEBUG)
 
 *.o : *.cpp
-	$(CXX) -o $@ -c $< 
+	$(CXX) -c $<  -ld2d1 -o $@  
 
 $(EXEC) : $(OBJ)
-	$(CXX) -o $@ $^ 
+	$(CXX) $^ -ld2d1 -o $@ 
 
 $(DEBUG) : $(OBJ)
-	$(CXX) -o $@ $^  $(DEBUG_ARGS)
-
+	$(CXX) -o $@ $^  $(DEBUG_ARGS) 
 clean :
 	rm *.o
 #Commande linux : modif
