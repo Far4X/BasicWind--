@@ -5,12 +5,18 @@
 #include <vector>
 
 class SourceWindow{
+    virtual int WindowCreated();
+    virtual const LPCSTR ClassName();
+    virtual LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
+
     public :
-        SourceWindow(int nCmdShow);
+        SourceWindow(HINSTANCE hInstance, int nCmdShow);
         ~SourceWindow();
+        const HWND getHandler();
+        static std::vector<SourceWindow*> c_list_source_windows;
 
     private :
-        LPCWSTR m_lpWindowName;
+        LPCSTR m_windowName;
         DWORD m_dwStyle;
         DWORD m_dwExStyle;
         int m_x;
@@ -18,18 +24,13 @@ class SourceWindow{
         int m_width;
         int m_height;
         HWND m_handler_window_parent;
-        HWND m_handler_window;
         HMENU m_hMenu;
-        static std::vector<SourceWindow*> c_list_source_windows;
 
     protected :
-        virtual LPCWSTR ClassName();
-        virtual LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
+  
         static SourceWindow* getThis(HWND handler_target);
         static LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
-        HWND getHandler();
-
-        HWND m_hanlder_window;
+        HWND m_handler_window = nullptr;
 };
 
 #endif
