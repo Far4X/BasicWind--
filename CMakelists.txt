@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0)
+
+project(UseBasicWind++)
+
+add_subdirectory(debug)
+
+set(SOURCE debug/main.cpp)
+
+add_executable(${PROJECT_NAME} ${SOURCE} ${SOURCES})
+
+target_link_libraries(${PROJECT_NAME} BasicWind++ d2d1)

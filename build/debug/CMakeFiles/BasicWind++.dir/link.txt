@@ -1,0 +1,2 @@
+C:\PROGRA~1\mingw64\bin\ar.exe qc libBasicWind++.a CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj
+C:\PROGRA~1\mingw64\bin\ranlib.exe libBasicWind++.a

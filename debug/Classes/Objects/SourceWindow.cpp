@@ -17,16 +17,15 @@ SourceWindow::SourceWindow(HINSTANCE hInstance, int nCmdShow){
     WindowClass.lpfnWndProc = WindowProc;
     WindowClass.hInstance = hInstance;
     
-    WindowClass.lpszClassName = L"MainWindow";
+    WindowClass.lpszClassName = "MainWindow";
 
     RegisterClass(&WindowClass);
 
     SourceWindow::c_list_source_windows.push_back(this);
 
-    m_handler_window = CreateWindowEx(WS_EX_OVERLAPPEDWINDOW, L"MainWindow", L"Circle", WS_OVERLAPPEDWINDOW, m_x, m_y,
+    m_handler_window = CreateWindowEx(WS_EX_OVERLAPPEDWINDOW, "MainWindow", "Circle", WS_OVERLAPPEDWINDOW, m_x, m_y,
         m_width, m_height, m_handler_window_parent, m_hMenu, hInstance, NULL);
 
-    //L is an error, but vscode count the good writtening as an error
 
     ShowWindow(m_handler_window, nCmdShow);
 
