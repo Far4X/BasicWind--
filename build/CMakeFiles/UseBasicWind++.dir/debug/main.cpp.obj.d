@@ -272,7 +272,7 @@ CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj: \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes/Objects/MainWindow.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes/Objects/Window.hpp \
  C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes/Objects/SourceWindow.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/vector \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/requires_hosted.h \

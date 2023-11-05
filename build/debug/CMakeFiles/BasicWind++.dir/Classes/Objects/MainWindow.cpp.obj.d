@@ -1,6 +1,7 @@
 debug/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj: \
  C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes\Objects\MainWindow.cpp \
  C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes\Objects\MainWindow.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes\Objects\Window.hpp \
  C:\Users\rapha\Documents\Projet\BasicWind++\debug\Classes\Objects\SourceWindow.hpp \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw.h \

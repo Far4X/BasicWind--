@@ -1,17 +1,17 @@
 #include "MainWindow.hpp"
 
-MainWindow::MainWindow(HINSTANCE hInstance, int nCmdShow) : SourceWindow(hInstance, nCmdShow){
-    /*m_factory = NULL;
+Window::Window(HINSTANCE hInstance, int nCmdShow) : SourceWindow(hInstance, nCmdShow){
+    m_factory = NULL;
     m_render_target = NULL;
-    m_brush = NULL;*/
+    m_brush = NULL;
     this->WindowCreated();
 } ;
 
-MainWindow::~MainWindow(){
+Window::~Window(){
 
 }
 
-LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
+LRESULT Window::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
     switch (uMsg){
     case WM_CREATE :
         return this->WindowCreated();
@@ -39,12 +39,12 @@ LRESULT MainWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
     }
 }
 
-const LPCSTR MainWindow::ClassName(){
+const LPCSTR Window::ClassName(){
     LPCSTR output("MainWindow");
     return output;
 }
 
-void MainWindow::Resize(){
+void Window::Resize(){
     if (m_render_target != nullptr){
         RECT rect_app;
         
@@ -57,7 +57,7 @@ void MainWindow::Resize(){
     }
 }
 
-void MainWindow::OnPaint(){
+void Window::OnPaint(){
     HRESULT handler_result = this->CreateGraphicResources(); 
     if (SUCCEEDED(handler_result)){
         PAINTSTRUCT paint_struct;
@@ -75,12 +75,12 @@ void MainWindow::OnPaint(){
     }
 }
 
-void MainWindow::DiscardGraphicResources(){
+void Window::DiscardGraphicResources(){
     m_render_target->Release();
     m_brush->Release();
 }
 
-void MainWindow::CalculateLayout(){
+void Window::CalculateLayout(){
     if (m_render_target != NULL){
         D2D1_SIZE_F size = m_render_target->GetSize();
         const float x = size.width / 2;
@@ -97,7 +97,7 @@ void MainWindow::CalculateLayout(){
     }
 }
 
-HRESULT MainWindow::CreateGraphicResources(){
+HRESULT Window::CreateGraphicResources(){
     HRESULT handler_result = S_OK;
     if (m_render_target == NULL){
         
@@ -121,7 +121,7 @@ HRESULT MainWindow::CreateGraphicResources(){
 }
 
 
-int MainWindow::WindowCreated(){
+int Window::WindowCreated(){
     if (FAILED(D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_factory))){
         return -1;
     }

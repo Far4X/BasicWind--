@@ -1,21 +1,38 @@
-#ifndef WINDOWPLUSPLUS
-#define WINDOWPLUSPLUS
+#ifndef UNICODE
+#define UNICODE
 
+#endif
 
-#include <windows.h>
-#include <wingdi.h>
-#include <vector>
+#ifndef WINDPLUSPLUS
+#define WINDPLUSPLUS
 
+#include "SourceWindow.hpp"
 
-class Window {
-public :
-    Window(Window& parent);
-    Window();
+#include <d2d1.h>
+#include <iostream>
+
+class Window : public SourceWindow{
+public : 
+    const LPCSTR ClassName();
+    Window(HINSTANCE hInstance, int nCmdShow);
     ~Window();
 
 private :
-    std::vector<Window> m_childs;
-    Window* m_parent = nullptr;
+    ID2D1Factory *m_factory;
+    ID2D1HwndRenderTarget *m_render_target;
+    ID2D1SolidColorBrush *m_brush;
+
+    //Tmp
+    D2D1_ELLIPSE m_ellipse;
+
+    void CalculateLayout();
+    void OnPaint();
+    void Resize();
+    void DiscardGraphicResources();
+    HRESULT CreateGraphicResources();
+    LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
+    int WindowCreated();
 };
+
 
 #endif

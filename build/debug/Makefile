@@ -153,6 +153,102 @@ Classes/Objects/MainWindow.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.s
 .PHONY : Classes/Objects/MainWindow.cpp.s
 
+Classes/Objects/Shapes/Circle.obj: Classes/Objects/Shapes/Circle.cpp.obj
+.PHONY : Classes/Objects/Shapes/Circle.obj
+
+# target to build an object file
+Classes/Objects/Shapes/Circle.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj
+.PHONY : Classes/Objects/Shapes/Circle.cpp.obj
+
+Classes/Objects/Shapes/Circle.i: Classes/Objects/Shapes/Circle.cpp.i
+.PHONY : Classes/Objects/Shapes/Circle.i
+
+# target to preprocess a source file
+Classes/Objects/Shapes/Circle.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.i
+.PHONY : Classes/Objects/Shapes/Circle.cpp.i
+
+Classes/Objects/Shapes/Circle.s: Classes/Objects/Shapes/Circle.cpp.s
+.PHONY : Classes/Objects/Shapes/Circle.s
+
+# target to generate assembly for a file
+Classes/Objects/Shapes/Circle.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.s
+.PHONY : Classes/Objects/Shapes/Circle.cpp.s
+
+Classes/Objects/Shapes/Mesh.obj: Classes/Objects/Shapes/Mesh.cpp.obj
+.PHONY : Classes/Objects/Shapes/Mesh.obj
+
+# target to build an object file
+Classes/Objects/Shapes/Mesh.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj
+.PHONY : Classes/Objects/Shapes/Mesh.cpp.obj
+
+Classes/Objects/Shapes/Mesh.i: Classes/Objects/Shapes/Mesh.cpp.i
+.PHONY : Classes/Objects/Shapes/Mesh.i
+
+# target to preprocess a source file
+Classes/Objects/Shapes/Mesh.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.i
+.PHONY : Classes/Objects/Shapes/Mesh.cpp.i
+
+Classes/Objects/Shapes/Mesh.s: Classes/Objects/Shapes/Mesh.cpp.s
+.PHONY : Classes/Objects/Shapes/Mesh.s
+
+# target to generate assembly for a file
+Classes/Objects/Shapes/Mesh.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.s
+.PHONY : Classes/Objects/Shapes/Mesh.cpp.s
+
+Classes/Objects/Shapes/Rectangle.obj: Classes/Objects/Shapes/Rectangle.cpp.obj
+.PHONY : Classes/Objects/Shapes/Rectangle.obj
+
+# target to build an object file
+Classes/Objects/Shapes/Rectangle.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.obj
+.PHONY : Classes/Objects/Shapes/Rectangle.cpp.obj
+
+Classes/Objects/Shapes/Rectangle.i: Classes/Objects/Shapes/Rectangle.cpp.i
+.PHONY : Classes/Objects/Shapes/Rectangle.i
+
+# target to preprocess a source file
+Classes/Objects/Shapes/Rectangle.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.i
+.PHONY : Classes/Objects/Shapes/Rectangle.cpp.i
+
+Classes/Objects/Shapes/Rectangle.s: Classes/Objects/Shapes/Rectangle.cpp.s
+.PHONY : Classes/Objects/Shapes/Rectangle.s
+
+# target to generate assembly for a file
+Classes/Objects/Shapes/Rectangle.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.s
+.PHONY : Classes/Objects/Shapes/Rectangle.cpp.s
+
+Classes/Objects/Shapes/Shape.obj: Classes/Objects/Shapes/Shape.cpp.obj
+.PHONY : Classes/Objects/Shapes/Shape.obj
+
+# target to build an object file
+Classes/Objects/Shapes/Shape.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj
+.PHONY : Classes/Objects/Shapes/Shape.cpp.obj
+
+Classes/Objects/Shapes/Shape.i: Classes/Objects/Shapes/Shape.cpp.i
+.PHONY : Classes/Objects/Shapes/Shape.i
+
+# target to preprocess a source file
+Classes/Objects/Shapes/Shape.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.i
+.PHONY : Classes/Objects/Shapes/Shape.cpp.i
+
+Classes/Objects/Shapes/Shape.s: Classes/Objects/Shapes/Shape.cpp.s
+.PHONY : Classes/Objects/Shapes/Shape.s
+
+# target to generate assembly for a file
+Classes/Objects/Shapes/Shape.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.s
+.PHONY : Classes/Objects/Shapes/Shape.cpp.s
+
 Classes/Objects/SourceWindow.obj: Classes/Objects/SourceWindow.cpp.obj
 .PHONY : Classes/Objects/SourceWindow.obj
 
@@ -213,6 +309,18 @@ help:
 	@echo ... Classes/Objects/MainWindow.obj
 	@echo ... Classes/Objects/MainWindow.i
 	@echo ... Classes/Objects/MainWindow.s
+	@echo ... Classes/Objects/Shapes/Circle.obj
+	@echo ... Classes/Objects/Shapes/Circle.i
+	@echo ... Classes/Objects/Shapes/Circle.s
+	@echo ... Classes/Objects/Shapes/Mesh.obj
+	@echo ... Classes/Objects/Shapes/Mesh.i
+	@echo ... Classes/Objects/Shapes/Mesh.s
+	@echo ... Classes/Objects/Shapes/Rectangle.obj
+	@echo ... Classes/Objects/Shapes/Rectangle.i
+	@echo ... Classes/Objects/Shapes/Rectangle.s
+	@echo ... Classes/Objects/Shapes/Shape.obj
+	@echo ... Classes/Objects/Shapes/Shape.i
+	@echo ... Classes/Objects/Shapes/Shape.s
 	@echo ... Classes/Objects/SourceWindow.obj
 	@echo ... Classes/Objects/SourceWindow.i
 	@echo ... Classes/Objects/SourceWindow.s

@@ -1,11 +1,11 @@
 #include <windows.h>
-#include "Classes/Objects/MainWindow.hpp"
+#include "Classes/Objects/Window.hpp"
 
 #include <iostream>
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, int nCmdShow)
 {
-    MainWindow my_win(hInstance, nCmdShow);
+    Window my_win(hInstance, nCmdShow);
 
     ShowWindow((my_win.getHandler()), SW_SHOWNORMAL);
 

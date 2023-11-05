@@ -1,5 +1,7 @@
+#include <vector>
 #include "SourceWindow.hpp"
 #include <iostream>
+
 
 std::vector<SourceWindow*> SourceWindow::c_list_source_windows = {};
 
