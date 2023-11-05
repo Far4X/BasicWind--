@@ -138,32 +138,32 @@ BasicWind++: cmake_check_build_system
 
 # fast build rule for target.
 BasicWind++/fast:
-	$(MAKE) $(MAKESILENT) -f debug\CMakeFiles\BasicWind++.dir\build.make debug/CMakeFiles/BasicWind++.dir/build
+	$(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/build
 .PHONY : BasicWind++/fast
 
-debug/main.obj: debug/main.cpp.obj
-.PHONY : debug/main.obj
+BasicWindLib/main.obj: BasicWindLib/main.cpp.obj
+.PHONY : BasicWindLib/main.obj
 
 # target to build an object file
-debug/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj
-.PHONY : debug/main.cpp.obj
+BasicWindLib/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj
+.PHONY : BasicWindLib/main.cpp.obj
 
-debug/main.i: debug/main.cpp.i
-.PHONY : debug/main.i
+BasicWindLib/main.i: BasicWindLib/main.cpp.i
+.PHONY : BasicWindLib/main.i
 
 # target to preprocess a source file
-debug/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/debug/main.cpp.i
-.PHONY : debug/main.cpp.i
+BasicWindLib/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.i
+.PHONY : BasicWindLib/main.cpp.i
 
-debug/main.s: debug/main.cpp.s
-.PHONY : debug/main.s
+BasicWindLib/main.s: BasicWindLib/main.cpp.s
+.PHONY : BasicWindLib/main.s
 
 # target to generate assembly for a file
-debug/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/debug/main.cpp.s
-.PHONY : debug/main.cpp.s
+BasicWindLib/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\UseBasicWind++.dir\build.make CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.s
+.PHONY : BasicWindLib/main.cpp.s
 
 # Help Target
 help:
@@ -175,9 +175,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... BasicWind++
 	@echo ... UseBasicWind++
-	@echo ... debug/main.obj
-	@echo ... debug/main.i
-	@echo ... debug/main.s
+	@echo ... BasicWindLib/main.obj
+	@echo ... BasicWindLib/main.i
+	@echo ... BasicWindLib/main.s
 .PHONY : help
 
 

@@ -23,15 +23,15 @@
 					]
 				},
 				{
-					"build" : "debug",
-					"jsonFile" : "directory-debug-Debug-6ab6ed9a5ca28884cc4b.json",
+					"build" : "BasicWindLib",
+					"jsonFile" : "directory-BasicWindLib-Debug-6710c99e173214cf1826.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "debug",
+					"source" : "BasicWindLib",
 					"targetIndexes" : 
 					[
 						0
@@ -73,15 +73,15 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "BasicWind++::@789cf532419e99b67093",
-					"jsonFile" : "target-BasicWind++-Debug-cf19077e64a6453964ea.json",
+					"id" : "BasicWind++::@c617d744134c4ff54c2c",
+					"jsonFile" : "target-BasicWind++-Debug-ccfe7e7c04eb43983047.json",
 					"name" : "BasicWind++",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "UseBasicWind++::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-UseBasicWind++-Debug-65c539d0110e9cbed070.json",
+					"jsonFile" : "target-UseBasicWind++-Debug-3d41321fe203d3a7a41c.json",
 					"name" : "UseBasicWind++",
 					"projectIndex" : 0
 				}

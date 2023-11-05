@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj"
-  "CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj.d"
+  "CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj"
+  "CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj.d"
   "UseBasicWind++.exe"
   "UseBasicWind++.exe.manifest"
   "UseBasicWind++.pdb"

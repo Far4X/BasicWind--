@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "debug",
-		"source" : "debug"
+		"build" : "BasicWindLib",
+		"source" : "BasicWindLib"
 	}
 }

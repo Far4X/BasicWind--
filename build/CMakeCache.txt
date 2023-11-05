@@ -15,13 +15,13 @@
 ########################
 
 //Value Computed by CMake
-BasicWind++_BINARY_DIR:STATIC=C:/Users/rapha/Documents/Projet/BasicWind++/build/debug
+BasicWind++_BINARY_DIR:STATIC=C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib
 
 //Value Computed by CMake
 BasicWind++_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-BasicWind++_SOURCE_DIR:STATIC=C:/Users/rapha/Documents/Projet/BasicWind++/debug
+BasicWind++_SOURCE_DIR:STATIC=C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/mingw64/bin/addr2line.exe

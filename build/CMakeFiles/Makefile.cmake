@@ -28,12 +28,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/mingw64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/mingw64/share/cmake-3.26/Modules/Platform/Windows.cmake"
   "C:/Program Files/mingw64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake"
+  "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/CMakeLists.txt"
   "C:/Users/rapha/Documents/Projet/BasicWind++/CMakeLists.txt"
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
-  "C:/Users/rapha/Documents/Projet/BasicWind++/debug/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "debug/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "BasicWindLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/UseBasicWind++.dir/DependInfo.cmake"
-  "debug/CMakeFiles/BasicWind++.dir/DependInfo.cmake"
+  "BasicWindLib/CMakeFiles/BasicWind++.dir/DependInfo.cmake"
   )

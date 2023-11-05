@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.0)
 
 project(UseBasicWind++)
 
-add_subdirectory(debug)
+add_subdirectory(BasicWindLib)
 
-set(SOURCE debug/main.cpp)
+set(SOURCE BasicWindLib/main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE} ${SOURCES})
 

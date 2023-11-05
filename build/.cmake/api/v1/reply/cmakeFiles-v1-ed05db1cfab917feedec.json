@@ -146,7 +146,7 @@
 			"path" : "C:/Program Files/mingw64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "debug/CMakeLists.txt"
+			"path" : "BasicWindLib/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

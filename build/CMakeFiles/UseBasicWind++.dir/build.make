@@ -68,31 +68,31 @@ include CMakeFiles/UseBasicWind++.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/UseBasicWind++.dir/flags.make
 
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/flags.make
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/includes_CXX.rsp
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/debug/main.cpp
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj -MF CMakeFiles\UseBasicWind++.dir\debug\main.cpp.obj.d -o CMakeFiles\UseBasicWind++.dir\debug\main.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\debug\main.cpp
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/flags.make
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/includes_CXX.rsp
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/main.cpp
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: CMakeFiles/UseBasicWind++.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj -MF CMakeFiles\UseBasicWind++.dir\BasicWindLib\main.cpp.obj.d -o CMakeFiles\UseBasicWind++.dir\BasicWindLib\main.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\main.cpp
 
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UseBasicWind++.dir/debug/main.cpp.i"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rapha\Documents\Projet\BasicWind++\debug\main.cpp > CMakeFiles\UseBasicWind++.dir\debug\main.cpp.i
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.i"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\main.cpp > CMakeFiles\UseBasicWind++.dir\BasicWindLib\main.cpp.i
 
-CMakeFiles/UseBasicWind++.dir/debug/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UseBasicWind++.dir/debug/main.cpp.s"
-	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rapha\Documents\Projet\BasicWind++\debug\main.cpp -o CMakeFiles\UseBasicWind++.dir\debug\main.cpp.s
+CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.s"
+	C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\main.cpp -o CMakeFiles\UseBasicWind++.dir\BasicWindLib\main.cpp.s
 
 # Object files for target UseBasicWind++
 UseBasicWind_______OBJECTS = \
-"CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj"
+"CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj"
 
 # External object files for target UseBasicWind++
 UseBasicWind_______EXTERNAL_OBJECTS =
 
-UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj
+UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj
 UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/build.make
-UseBasicWind++.exe: debug/libBasicWind++.a
+UseBasicWind++.exe: BasicWindLib/libBasicWind++.a
 UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/linkLibs.rsp
 UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/objects1.rsp
 UseBasicWind++.exe: CMakeFiles/UseBasicWind++.dir/link.txt

@@ -1,50 +1,50 @@
 [
 {
   "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/UseBasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\UseBasicWind++.dir\\debug\\main.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\main.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/main.cpp",
-  "output": "CMakeFiles/UseBasicWind++.dir/debug/main.cpp.obj"
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/UseBasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\UseBasicWind++.dir\\BasicWindLib\\main.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\main.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/main.cpp",
+  "output": "CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\MainWindow.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\MainWindow.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/MainWindow.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\MainWindow.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\MainWindow.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/MainWindow.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Circle.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\Shapes\\Circle.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/Shapes/Circle.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Circle.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Circle.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Circle.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Mesh.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\Shapes\\Mesh.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/Shapes/Mesh.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Mesh.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Mesh.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Mesh.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Rectangle.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\Shapes\\Rectangle.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/Shapes/Rectangle.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Rectangle.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Rectangle.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rectangle.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Shape.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\Shapes\\Shape.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/Shapes/Shape.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Shape.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Shape.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\SourceWindow.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\SourceWindow.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/SourceWindow.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\SourceWindow.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\SourceWindow.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/SourceWindow.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj"
 },
 {
-  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/debug",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Window.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\debug\\Classes\\Objects\\Window.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/debug/Classes/Objects/Window.cpp",
-  "output": "debug/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Window.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Window.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Window.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
 }
 ]
