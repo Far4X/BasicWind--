@@ -3,17 +3,20 @@
 
 #include <windows.h>
 #include <vector>
+#include "Shapes/Shape.hpp"
 
-class SourceWindow{
+class SourceWindow : public Shape{
     virtual int WindowCreated();
     virtual const LPCSTR ClassName();
     virtual LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
+    virtual ID2D1HwndRenderTarget* getRenderTarget();
 
     public :
         SourceWindow(HINSTANCE hInstance, int nCmdShow);
         ~SourceWindow();
-        const HWND getHandler();
         static std::vector<SourceWindow*> c_list_source_windows;
+        const HWND getHandler();
+
 
     private :
         LPCSTR m_windowName;
@@ -27,7 +30,6 @@ class SourceWindow{
         HMENU m_hMenu;
 
     protected :
-  
         static SourceWindow* getThis(HWND handler_target);
         static LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
         HWND m_handler_window = nullptr;

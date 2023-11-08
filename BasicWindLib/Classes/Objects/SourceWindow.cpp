@@ -5,7 +5,7 @@
 
 std::vector<SourceWindow*> SourceWindow::c_list_source_windows = {};
 
-SourceWindow::SourceWindow(HINSTANCE hInstance, int nCmdShow){    
+SourceWindow::SourceWindow(HINSTANCE hInstance, int nCmdShow) : Shape(){    
     m_dwExStyle = WS_OVERLAPPEDWINDOW;
     m_x = 100;
     m_y = 100;
@@ -30,7 +30,6 @@ SourceWindow::SourceWindow(HINSTANCE hInstance, int nCmdShow){
 
 
     ShowWindow(m_handler_window, nCmdShow);
-
     std::cout << "Created Window" << std::endl;
 }
 
@@ -42,7 +41,7 @@ LRESULT SourceWindow::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lPa
     std::cout << "In windowproc. Message is " << uMsg << std::endl;
 
     SourceWindow* ptr_this = SourceWindow::getThis(hwnd);
-;
+
     if (uMsg == WM_NCCREATE){
         CREATESTRUCT* pCreate = (CREATESTRUCT*)lParam;
         ptr_this = nullptr;
@@ -86,4 +85,9 @@ LRESULT SourceWindow::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
 int SourceWindow::WindowCreated(){
     std::cout << "Not here" << std::endl;
     return 0;
+}
+
+ID2D1HwndRenderTarget* SourceWindow::getRenderTarget(){
+    throw TypeError(6, "Shape has no render target");
+    return NULL;
 }

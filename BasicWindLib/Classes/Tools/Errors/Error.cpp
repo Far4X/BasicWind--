@@ -1,6 +1,9 @@
 #include "Error.hpp"
+#include <iostream>
+
 
 Error::Error(int code){
+    std::cout << "Error" << std::endl;    
     m_code = code;
 }
 

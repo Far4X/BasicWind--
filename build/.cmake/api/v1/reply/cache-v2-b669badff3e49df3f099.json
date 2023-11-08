@@ -1318,6 +1318,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "GLOB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "GLOB-NOTFOUND"
+		},
+		{
 			"name" : "LIBRARY_OUTPUT_PATH",
 			"properties" : 
 			[

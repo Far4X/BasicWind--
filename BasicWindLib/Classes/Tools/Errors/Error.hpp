@@ -1,5 +1,5 @@
-#ifndef BWTYPEERROR_HPP
-#define BWTYPEERROR_HPP
+#ifndef BWERROR_HPP
+#define BWERROR_HPP
 
 class Error{
 public :

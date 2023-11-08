@@ -46,5 +46,17 @@
   "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Window.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Window.cpp",
   "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Window.cpp",
   "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
+},
+{
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Tools\\Errors\\Error.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Tools\\Errors\\Error.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj"
+},
+{
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Tools\\Errors\\TypeError.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Tools\\Errors\\TypeError.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/TypeError.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj"
 }
 ]

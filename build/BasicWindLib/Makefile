@@ -297,6 +297,54 @@ Classes/Objects/Window.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.s
 .PHONY : Classes/Objects/Window.cpp.s
 
+Classes/Tools/Errors/Error.obj: Classes/Tools/Errors/Error.cpp.obj
+.PHONY : Classes/Tools/Errors/Error.obj
+
+# target to build an object file
+Classes/Tools/Errors/Error.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj
+.PHONY : Classes/Tools/Errors/Error.cpp.obj
+
+Classes/Tools/Errors/Error.i: Classes/Tools/Errors/Error.cpp.i
+.PHONY : Classes/Tools/Errors/Error.i
+
+# target to preprocess a source file
+Classes/Tools/Errors/Error.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.i
+.PHONY : Classes/Tools/Errors/Error.cpp.i
+
+Classes/Tools/Errors/Error.s: Classes/Tools/Errors/Error.cpp.s
+.PHONY : Classes/Tools/Errors/Error.s
+
+# target to generate assembly for a file
+Classes/Tools/Errors/Error.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.s
+.PHONY : Classes/Tools/Errors/Error.cpp.s
+
+Classes/Tools/Errors/TypeError.obj: Classes/Tools/Errors/TypeError.cpp.obj
+.PHONY : Classes/Tools/Errors/TypeError.obj
+
+# target to build an object file
+Classes/Tools/Errors/TypeError.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj
+.PHONY : Classes/Tools/Errors/TypeError.cpp.obj
+
+Classes/Tools/Errors/TypeError.i: Classes/Tools/Errors/TypeError.cpp.i
+.PHONY : Classes/Tools/Errors/TypeError.i
+
+# target to preprocess a source file
+Classes/Tools/Errors/TypeError.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.i
+.PHONY : Classes/Tools/Errors/TypeError.cpp.i
+
+Classes/Tools/Errors/TypeError.s: Classes/Tools/Errors/TypeError.cpp.s
+.PHONY : Classes/Tools/Errors/TypeError.s
+
+# target to generate assembly for a file
+Classes/Tools/Errors/TypeError.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.s
+.PHONY : Classes/Tools/Errors/TypeError.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -327,6 +375,12 @@ help:
 	@echo ... Classes/Objects/Window.obj
 	@echo ... Classes/Objects/Window.i
 	@echo ... Classes/Objects/Window.s
+	@echo ... Classes/Tools/Errors/Error.obj
+	@echo ... Classes/Tools/Errors/Error.i
+	@echo ... Classes/Tools/Errors/Error.s
+	@echo ... Classes/Tools/Errors/TypeError.obj
+	@echo ... Classes/Tools/Errors/TypeError.i
+	@echo ... Classes/Tools/Errors/TypeError.s
 .PHONY : help
 
 
