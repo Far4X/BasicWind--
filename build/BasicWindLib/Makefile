@@ -201,29 +201,53 @@ Classes/Objects/Shapes/Mesh.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.s
 .PHONY : Classes/Objects/Shapes/Mesh.cpp.s
 
-Classes/Objects/Shapes/Rectangle.obj: Classes/Objects/Shapes/Rectangle.cpp.obj
-.PHONY : Classes/Objects/Shapes/Rectangle.obj
+Classes/Objects/Shapes/Rect.obj: Classes/Objects/Shapes/Rect.cpp.obj
+.PHONY : Classes/Objects/Shapes/Rect.obj
 
 # target to build an object file
-Classes/Objects/Shapes/Rectangle.cpp.obj:
-	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.obj
-.PHONY : Classes/Objects/Shapes/Rectangle.cpp.obj
+Classes/Objects/Shapes/Rect.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj
+.PHONY : Classes/Objects/Shapes/Rect.cpp.obj
 
-Classes/Objects/Shapes/Rectangle.i: Classes/Objects/Shapes/Rectangle.cpp.i
-.PHONY : Classes/Objects/Shapes/Rectangle.i
+Classes/Objects/Shapes/Rect.i: Classes/Objects/Shapes/Rect.cpp.i
+.PHONY : Classes/Objects/Shapes/Rect.i
 
 # target to preprocess a source file
-Classes/Objects/Shapes/Rectangle.cpp.i:
-	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.i
-.PHONY : Classes/Objects/Shapes/Rectangle.cpp.i
+Classes/Objects/Shapes/Rect.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.i
+.PHONY : Classes/Objects/Shapes/Rect.cpp.i
 
-Classes/Objects/Shapes/Rectangle.s: Classes/Objects/Shapes/Rectangle.cpp.s
-.PHONY : Classes/Objects/Shapes/Rectangle.s
+Classes/Objects/Shapes/Rect.s: Classes/Objects/Shapes/Rect.cpp.s
+.PHONY : Classes/Objects/Shapes/Rect.s
 
 # target to generate assembly for a file
-Classes/Objects/Shapes/Rectangle.cpp.s:
-	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.s
-.PHONY : Classes/Objects/Shapes/Rectangle.cpp.s
+Classes/Objects/Shapes/Rect.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.s
+.PHONY : Classes/Objects/Shapes/Rect.cpp.s
+
+Classes/Objects/Shapes/RoundedRect.obj: Classes/Objects/Shapes/RoundedRect.cpp.obj
+.PHONY : Classes/Objects/Shapes/RoundedRect.obj
+
+# target to build an object file
+Classes/Objects/Shapes/RoundedRect.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj
+.PHONY : Classes/Objects/Shapes/RoundedRect.cpp.obj
+
+Classes/Objects/Shapes/RoundedRect.i: Classes/Objects/Shapes/RoundedRect.cpp.i
+.PHONY : Classes/Objects/Shapes/RoundedRect.i
+
+# target to preprocess a source file
+Classes/Objects/Shapes/RoundedRect.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.i
+.PHONY : Classes/Objects/Shapes/RoundedRect.cpp.i
+
+Classes/Objects/Shapes/RoundedRect.s: Classes/Objects/Shapes/RoundedRect.cpp.s
+.PHONY : Classes/Objects/Shapes/RoundedRect.s
+
+# target to generate assembly for a file
+Classes/Objects/Shapes/RoundedRect.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.s
+.PHONY : Classes/Objects/Shapes/RoundedRect.cpp.s
 
 Classes/Objects/Shapes/Shape.obj: Classes/Objects/Shapes/Shape.cpp.obj
 .PHONY : Classes/Objects/Shapes/Shape.obj
@@ -363,9 +387,12 @@ help:
 	@echo ... Classes/Objects/Shapes/Mesh.obj
 	@echo ... Classes/Objects/Shapes/Mesh.i
 	@echo ... Classes/Objects/Shapes/Mesh.s
-	@echo ... Classes/Objects/Shapes/Rectangle.obj
-	@echo ... Classes/Objects/Shapes/Rectangle.i
-	@echo ... Classes/Objects/Shapes/Rectangle.s
+	@echo ... Classes/Objects/Shapes/Rect.obj
+	@echo ... Classes/Objects/Shapes/Rect.i
+	@echo ... Classes/Objects/Shapes/Rect.s
+	@echo ... Classes/Objects/Shapes/RoundedRect.obj
+	@echo ... Classes/Objects/Shapes/RoundedRect.i
+	@echo ... Classes/Objects/Shapes/RoundedRect.s
 	@echo ... Classes/Objects/Shapes/Shape.obj
 	@echo ... Classes/Objects/Shapes/Shape.i
 	@echo ... Classes/Objects/Shapes/Shape.s

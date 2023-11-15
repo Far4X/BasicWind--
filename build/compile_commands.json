@@ -25,9 +25,15 @@
 },
 {
   "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
-  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Rectangle.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Rectangle.cpp",
-  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rectangle.cpp",
-  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rectangle.cpp.obj"
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\Rect.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\Rect.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj"
+},
+{
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Shapes\\RoundedRect.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Shapes\\RoundedRect.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/RoundedRect.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj"
 },
 {
   "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",

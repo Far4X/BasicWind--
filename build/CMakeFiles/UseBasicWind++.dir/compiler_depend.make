@@ -426,7 +426,10 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Document
   C:/Program\ Files/mingw64/include/c++/13.1.0/istream \
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/istream.tcc \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Circle.hpp \
-  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.hpp
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/RoundedRect.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp
 
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/ostream.tcc:
@@ -649,6 +652,8 @@ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512bwintr
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512cdintrin.h:
 
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/RoundedRect.hpp:
+
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/pkuintrin.h:
@@ -782,6 +787,8 @@ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/requires_hosted.h:
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/raointintrin.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/winnetwk.h:
+
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/istream.tcc:
 

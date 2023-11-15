@@ -38,18 +38,13 @@ SourceWindow::~SourceWindow(){
 }
 
 LRESULT SourceWindow::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam){
-    std::cout << "In windowproc. Message is " << uMsg << std::endl;
-
     SourceWindow* ptr_this = SourceWindow::getThis(hwnd);
 
     if (uMsg == WM_NCCREATE){
         CREATESTRUCT* pCreate = (CREATESTRUCT*)lParam;
         ptr_this = nullptr;
         SetWindowLongPtr(hwnd, GWLP_USERDATA, (LONG_PTR)ptr_this);
-        std::cout << "Created ptr_this : " << ptr_this << " : " << c_list_source_windows[0] << std::endl;
     }
-
-    std::cout << "Received message. ptr_this : " << ptr_this << std::endl;
     if (ptr_this != nullptr){
         return ptr_this->HandleMessage(uMsg, wParam, lParam);
     }

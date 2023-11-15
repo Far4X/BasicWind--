@@ -18,13 +18,11 @@ public :
     Window(HINSTANCE hInstance, int nCmdShow);
     ~Window();
     ID2D1HwndRenderTarget* getRenderTarget();
-    void addShapeToDraw(Shape *new_shape);
 
 private :
     ID2D1Factory *m_factory;
     ID2D1HwndRenderTarget *m_render_target;
     ID2D1SolidColorBrush *m_brush;
-    std::vector<Shape*> m_list_shapes; 
 
     //Tmp
     void CalculateLayout();

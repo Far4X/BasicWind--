@@ -20,6 +20,5 @@ void Circle::drawShape(){
 }
 
 void Circle::updateShape(){
-    std::cout << "Pos : " << m_pos[0] << " : " << m_pos[1] << std::endl;
     m_ellipse = D2D1::Ellipse(D2D1::Point2F(m_pos[0], m_pos[1]), m_radius, m_radius);
 }

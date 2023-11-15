@@ -424,4 +424,7 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/istream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/istream.tcc \
  C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/Circle.hpp \
- C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/Shape.hpp
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/Shape.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/Rect.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/RoundedRect.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/Shapes/Rect.hpp

@@ -14,11 +14,9 @@ Window::~Window(){
 LRESULT Window::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
     switch (uMsg){
     case WM_CREATE :
-        std::cout << "CTing" << std::endl;
         return this->WindowCreated();
 
     case WM_DESTROY :
-        std::cout << "DSTing" << std::endl;
         this->DiscardGraphicResources();
         m_factory->Release();
         PostQuitMessage(0);
@@ -26,12 +24,10 @@ LRESULT Window::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
         return 0;
 
     case WM_PAINT :
-        std::cout << "Painting" << std::endl;
         this->OnPaint();
         return 0;
 
     case WM_SIZE :
-        std::cout << "Resize" << std::endl;
         this->Resize();
         return 0;
 
@@ -72,7 +68,6 @@ void Window::OnPaint(){
         for (int i = 0; i < m_list_shapes.size(); i++){
             m_list_shapes[i]->drawShape();
         }        
-
         handler_result = m_render_target->EndDraw();
         if (FAILED(handler_result) || handler_result == D2DERR_RECREATE_TARGET){
             this->DiscardGraphicResources();
@@ -105,9 +100,7 @@ HRESULT Window::CreateGraphicResources(){
         handler_result = m_factory->CreateHwndRenderTarget(D2D1::RenderTargetProperties(), D2D1::HwndRenderTargetProperties(m_handler_window, size), &m_render_target);
     }
     for (int i = 0; i < m_list_shapes.size(); i++){
-        std::cout << "Update brush" << std::endl;
         m_list_shapes[i]->updateBrush();
-        std::cout << "Brush updated" << std::endl;
     } 
     return handler_result;
 }
@@ -121,8 +114,4 @@ int Window::WindowCreated(){
         return -1;
     }
     return 0;
-}
-
-void Window::addShapeToDraw(Shape *new_shape){
-    m_list_shapes.push_back(new_shape);
 }

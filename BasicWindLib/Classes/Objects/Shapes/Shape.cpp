@@ -83,3 +83,15 @@ ID2D1HwndRenderTarget* Shape::getRenderTarget(){
     throw TypeError(6, "Shape has no render target");
     return NULL;
 }
+
+void Shape::addShapeToDraw(Shape *new_shape){
+    m_list_shapes.push_back(new_shape);
+}
+
+void Shape::dectectClick(float pos[2]){
+    throw TypeError(6, "Shape has no corpse");
+}
+
+void Shape::isClickedOn(){
+
+}
