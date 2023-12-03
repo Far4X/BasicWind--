@@ -19,15 +19,19 @@ public :
     float* getColor();
     float* getPos();
     void setPos(float pos[2]);
-    void setColor(int color[3]);
+    void setColor(float color[3]);
     virtual void updateShape();
     void updateBrush();
     virtual const HWND getHandler();
     virtual ID2D1HwndRenderTarget* getRenderTarget();
     void addShapeToDraw(Shape *new_shape);
     std::vector<Shape*> m_list_shapes;
-    void dectectClick(float pos[2]);
-    void isClickedOn();
+    virtual void detectClick(int pos[2]);
+    virtual void isClickedOn();
+    virtual void isOverflyed(int pos[2]);
+    Shape* getWindow();
+    virtual void OnPaint();
+    Shape* getParent();
 
 
 protected :

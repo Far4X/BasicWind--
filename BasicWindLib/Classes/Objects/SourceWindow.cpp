@@ -13,6 +13,7 @@ SourceWindow::SourceWindow(HINSTANCE hInstance, int nCmdShow) : Shape(){
     m_height = 500;
     m_handler_window_parent = NULL;
     m_hMenu = NULL;
+    m_nCmdShow = nCmdShow;
 
     WNDCLASS WindowClass = {0};
 
@@ -85,4 +86,14 @@ int SourceWindow::WindowCreated(){
 ID2D1HwndRenderTarget* SourceWindow::getRenderTarget(){
     throw TypeError(6, "Shape has no render target");
     return NULL;
+}
+
+void SourceWindow::detectClick(int pos[2]){
+    for (int i = 0; i < m_list_shapes.size(); i++){
+        m_list_shapes[i]->detectClick(pos);
+    }
+}
+
+Shape *SourceWindow::getWindow(){
+    return this;
 }

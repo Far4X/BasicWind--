@@ -375,6 +375,7 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Document
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.hpp \
   C:/Program\ Files/mingw64/include/c++/13.1.0/iostream \
   C:/Program\ Files/mingw64/include/c++/13.1.0/ostream \
   C:/Program\ Files/mingw64/include/c++/13.1.0/ios \
@@ -429,8 +430,41 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Document
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.hpp \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/RoundedRect.hpp \
-  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Button.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/functional \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/std_function.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/unordered_map \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/unordered_map.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hashtable.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/enable_special_members.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/node_handle.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/erase_if.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/array \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/compare \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_algo.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_heap.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h
 
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_heap.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_algo.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/array:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/erase_if.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hashtable.h:
+
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Button.hpp:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/ostream.tcc:
 
@@ -518,6 +552,8 @@ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/postypes.h:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/char_traits.h:
 
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.hpp:
+
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2derr.h:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/clocale:
@@ -534,6 +570,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d3d10shader.h:
 
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hashtable_policy.h:
+
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/dxgicommon.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/dxgi.h:
@@ -547,6 +585,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2d1.h:
 C:/Program\ Files/mingw64/include/c++/13.1.0/tuple:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uses_allocator_args.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/ext/aligned_buffer.h:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/cstddef:
 
@@ -593,6 +633,8 @@ C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/error_const
 C:/Program\ Files/mingw64/include/c++/13.1.0/ext/alloc_traits.h:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/ext/numeric_traits.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/enable_special_members.h:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/ext/type_traits.h:
 
@@ -642,6 +684,8 @@ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx5124fmaps
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmiintrin.h:
 
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/node_handle.h:
+
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512ifmavlintrin.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h:
@@ -683,6 +727,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/timeapi.h:
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/wmmintrin.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpc.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/fxsrintrin.h:
 
@@ -761,6 +807,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx2intrin.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512erintrin.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/unordered_map:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/xsavesintrin.h:
 
@@ -868,7 +916,11 @@ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/main.cpp:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/wincrypt.h:
 
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/std_function.h:
+
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/functional:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/enqcmdintrin.h:
 
@@ -899,6 +951,8 @@ C:/Program\ Files/mingw64/include/c++/13.1.0/cstdio:
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/algorithmfwd.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vlbwintrin.h:
 
@@ -1045,6 +1099,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/poppack.h:
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/locale_classes.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/pshpack2.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/compare:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
 
@@ -1239,6 +1295,8 @@ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_timeval.h:
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator_base_funcs.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_bsd_types.h:
+
+C:/Program\ Files/mingw64/include/c++/13.1.0/bits/unordered_map.h:
 
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/inaddr.h:
 

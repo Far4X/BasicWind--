@@ -1,11 +1,13 @@
 #include "MainWindow.hpp"
+#include <windowsx.h>
 
 Window::Window(HINSTANCE hInstance, int nCmdShow) : SourceWindow(hInstance, nCmdShow){
     m_factory = NULL;
     m_render_target = NULL;
     m_brush = NULL;
     this->WindowCreated();
-} ;
+    m_cursor = Cursor();
+}
 
 Window::~Window(){
     m_render_target->Release();
@@ -22,6 +24,22 @@ LRESULT Window::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
         PostQuitMessage(0);
 
         return 0;
+
+    case WM_MOUSEMOVE : {
+        int x = GET_X_LPARAM(lParam);
+        int y = GET_Y_LPARAM(lParam);
+        int pos[2] = {x, y};
+        m_cursor.updatePosition(pos);
+
+        this->isOverflyed(pos);
+
+        return 0;
+    }
+        
+    case WM_LBUTTONDOWN : {
+        this->detectClick(m_cursor.getPosition());
+        return 0;
+    }
 
     case WM_PAINT :
         this->OnPaint();
@@ -81,7 +99,9 @@ void Window::OnPaint(){
 
 void Window::DiscardGraphicResources(){ 
     m_render_target->Release();
-    m_brush->Release();
+    if (m_brush != nullptr){
+        m_brush->Release();
+    }
 }
 
 void Window::CalculateLayout(){

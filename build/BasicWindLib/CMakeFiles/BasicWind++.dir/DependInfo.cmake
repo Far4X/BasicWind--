@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Button.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/MainWindow.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Circle.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Mesh.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj.d"
@@ -16,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/SourceWindow.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Window.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj.d"
+  "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj.d"
   "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/TypeError.cpp" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj" "gcc" "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj.d"
   )

@@ -15,6 +15,7 @@ class MainWindow : public Window{
 public : 
     MainWindow(HINSTANCE hInstance, int nCmdShow);
     ~MainWindow();
+
 };
 
 

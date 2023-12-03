@@ -3,10 +3,15 @@
 #include "Classes/Objects/Shapes/Circle.hpp"
 #include "Classes/Objects/Shapes/Rect.hpp"
 #include "Classes/Objects/Shapes/RoundedRect.hpp"
+#include "Classes/Objects/Button.hpp"
 
 
 
 #include <iostream>
+
+void printHello(){
+    std::cout << "BTN CLKD" << std::endl;
+}
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, int nCmdShow)
 {
@@ -18,14 +23,18 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, 
 
     float pos2[2] = {300.0, 100.0};
     float color2[3] = {0, 300, 0};
-    float sizer[2] = {200, 100};
+    float size[2] = {200, 100};
     float ellipse[2] = {10, 10};
 
 
-    RoundedRect test_rect(ptr_win, pos, sizer, ellipse, color2);
+    RoundedRect test_rect(ptr_win, pos, size, ellipse, color2);
 
-    ptr_win->addShapeToDraw(&test_cicrle);
-    ptr_win->addShapeToDraw(&test_rect);
+    float pos3[2] = {200.0, 200.0};
+    float color3[3] = {150, 150, 150};
+    float size3[2] = {100, 50};
+
+    Button test_button(ptr_win, pos3, size3, color3, printHello);
+
     ShowWindow((ptr_win->getHandler()), nCmdShow);
 
     // Run the message loop.

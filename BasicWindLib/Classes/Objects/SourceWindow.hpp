@@ -16,6 +16,8 @@ class SourceWindow : public Shape{
         ~SourceWindow();
         static std::vector<SourceWindow*> c_list_source_windows;
         const HWND getHandler();
+        void detectClick(int pos[2]);
+        Shape* getWindow();
 
 
     private :
@@ -33,6 +35,7 @@ class SourceWindow : public Shape{
         static SourceWindow* getThis(HWND handler_target);
         static LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
         HWND m_handler_window = nullptr;
+        int m_nCmdShow;
 };
 
 #endif

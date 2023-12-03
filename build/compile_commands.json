@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Button.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Button.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Button.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj"
+},
+{
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
   "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\MainWindow.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\MainWindow.cpp",
   "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/MainWindow.cpp",
   "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj"
@@ -52,6 +58,12 @@
   "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Objects\\Window.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Objects\\Window.cpp",
   "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Window.cpp",
   "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
+},
+{
+  "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/BasicWind++.dir/includes_CXX.rsp -g -o CMakeFiles\\BasicWind++.dir\\Classes\\Tools\\Cursor.cpp.obj -c C:\\Users\\rapha\\Documents\\Projet\\BasicWind++\\BasicWindLib\\Classes\\Tools\\Cursor.cpp",
+  "file": "C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.cpp",
+  "output": "BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj"
 },
 {
   "directory": "C:/Users/rapha/Documents/Projet/BasicWind++/build/BasicWindLib",

@@ -7,6 +7,7 @@
 #define WINDPLUSPLUS_HPP
 
 #include "SourceWindow.hpp"
+#include "../Tools/Cursor.hpp"
 
 #include <d2d1.h>
 #include <iostream>
@@ -18,15 +19,16 @@ public :
     Window(HINSTANCE hInstance, int nCmdShow);
     ~Window();
     ID2D1HwndRenderTarget* getRenderTarget();
+    void OnPaint();
 
 private :
     ID2D1Factory *m_factory;
     ID2D1HwndRenderTarget *m_render_target;
     ID2D1SolidColorBrush *m_brush;
+    Cursor m_cursor;
 
     //Tmp
     void CalculateLayout();
-    void OnPaint();
     void Resize();
     void DiscardGraphicResources();
     HRESULT CreateGraphicResources();

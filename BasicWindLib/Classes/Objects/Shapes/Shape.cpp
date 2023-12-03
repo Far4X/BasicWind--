@@ -15,6 +15,7 @@ Shape::Shape(Shape *parent, float pos[2]){
         m_pos[i] = pos[i];
     }
     this->updateBrush();
+    parent->addShapeToDraw(this);
 }
 
 Shape::Shape(Shape *parent, float pos[2], float color[3]){
@@ -26,6 +27,7 @@ Shape::Shape(Shape *parent, float pos[2], float color[3]){
         m_pos[i] = pos[i];
     }
     this->updateBrush();
+    parent->addShapeToDraw(this);
 }
 
 Shape::~Shape(){
@@ -41,7 +43,7 @@ float* Shape::getPos(){
     return m_pos;
 }
 
-void Shape::setColor(int color[3]){
+void Shape::setColor(float color[3]){
     for (int i = 0; i < 3; i++){
         m_color[i] = color[i];
     }
@@ -55,6 +57,9 @@ void Shape::updateBrush(){
         if (FAILED(res)){
             throw Error(5);
         }
+    }
+    else {
+        std::cout <<"No" << std::endl;
     }
     
 }
@@ -88,10 +93,28 @@ void Shape::addShapeToDraw(Shape *new_shape){
     m_list_shapes.push_back(new_shape);
 }
 
-void Shape::dectectClick(float pos[2]){
+void Shape::detectClick(int pos[2]){
     throw TypeError(6, "Shape has no corpse");
 }
 
 void Shape::isClickedOn(){
 
 }
+
+void Shape::isOverflyed(int pos[2]){
+
+}
+
+Shape* Shape::getWindow(){
+    if (m_parent != nullptr){
+        return (m_parent)->getWindow();
+    }
+    else {
+        return this;
+    }
+}
+
+void Shape::OnPaint(){
+    throw TypeError(6, "Shape has no corpse, connot be painted");
+}
+

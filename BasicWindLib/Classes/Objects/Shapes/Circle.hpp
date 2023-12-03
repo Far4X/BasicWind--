@@ -11,6 +11,7 @@ public :
 
     void drawShape();
     void updateShape();
+    void detectClick(int pos[2]);
 
 private :
     float m_radius;

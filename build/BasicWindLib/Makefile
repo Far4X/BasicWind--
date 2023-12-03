@@ -129,6 +129,30 @@ BasicWind++/fast:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/build
 .PHONY : BasicWind++/fast
 
+Classes/Objects/Button.obj: Classes/Objects/Button.cpp.obj
+.PHONY : Classes/Objects/Button.obj
+
+# target to build an object file
+Classes/Objects/Button.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj
+.PHONY : Classes/Objects/Button.cpp.obj
+
+Classes/Objects/Button.i: Classes/Objects/Button.cpp.i
+.PHONY : Classes/Objects/Button.i
+
+# target to preprocess a source file
+Classes/Objects/Button.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.i
+.PHONY : Classes/Objects/Button.cpp.i
+
+Classes/Objects/Button.s: Classes/Objects/Button.cpp.s
+.PHONY : Classes/Objects/Button.s
+
+# target to generate assembly for a file
+Classes/Objects/Button.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.s
+.PHONY : Classes/Objects/Button.cpp.s
+
 Classes/Objects/MainWindow.obj: Classes/Objects/MainWindow.cpp.obj
 .PHONY : Classes/Objects/MainWindow.obj
 
@@ -321,6 +345,30 @@ Classes/Objects/Window.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.s
 .PHONY : Classes/Objects/Window.cpp.s
 
+Classes/Tools/Cursor.obj: Classes/Tools/Cursor.cpp.obj
+.PHONY : Classes/Tools/Cursor.obj
+
+# target to build an object file
+Classes/Tools/Cursor.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj
+.PHONY : Classes/Tools/Cursor.cpp.obj
+
+Classes/Tools/Cursor.i: Classes/Tools/Cursor.cpp.i
+.PHONY : Classes/Tools/Cursor.i
+
+# target to preprocess a source file
+Classes/Tools/Cursor.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.i
+.PHONY : Classes/Tools/Cursor.cpp.i
+
+Classes/Tools/Cursor.s: Classes/Tools/Cursor.cpp.s
+.PHONY : Classes/Tools/Cursor.s
+
+# target to generate assembly for a file
+Classes/Tools/Cursor.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.s
+.PHONY : Classes/Tools/Cursor.cpp.s
+
 Classes/Tools/Errors/Error.obj: Classes/Tools/Errors/Error.cpp.obj
 .PHONY : Classes/Tools/Errors/Error.obj
 
@@ -378,6 +426,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BasicWind++
+	@echo ... Classes/Objects/Button.obj
+	@echo ... Classes/Objects/Button.i
+	@echo ... Classes/Objects/Button.s
 	@echo ... Classes/Objects/MainWindow.obj
 	@echo ... Classes/Objects/MainWindow.i
 	@echo ... Classes/Objects/MainWindow.s
@@ -402,6 +453,9 @@ help:
 	@echo ... Classes/Objects/Window.obj
 	@echo ... Classes/Objects/Window.i
 	@echo ... Classes/Objects/Window.s
+	@echo ... Classes/Tools/Cursor.obj
+	@echo ... Classes/Tools/Cursor.i
+	@echo ... Classes/Tools/Cursor.s
 	@echo ... Classes/Tools/Errors/Error.obj
 	@echo ... Classes/Tools/Errors/Error.i
 	@echo ... Classes/Tools/Errors/Error.s

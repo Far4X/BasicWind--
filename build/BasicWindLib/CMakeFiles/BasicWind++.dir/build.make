@@ -68,11 +68,26 @@ include BasicWindLib/CMakeFiles/BasicWind++.dir/progress.make
 # Include the compile flags for this target's objects.
 include BasicWindLib/CMakeFiles/BasicWind++.dir/flags.make
 
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/flags.make
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Button.cpp
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Button.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Button.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Button.cpp
+
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.i"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Button.cpp > CMakeFiles\BasicWind++.dir\Classes\Objects\Button.cpp.i
+
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.s"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Button.cpp -o CMakeFiles\BasicWind++.dir\Classes\Objects\Button.cpp.s
+
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/flags.make
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/MainWindow.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\MainWindow.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\MainWindow.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\MainWindow.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.i: cmake_force
@@ -87,7 +102,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj: B
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Circle.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Circle.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Circle.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes\Circle.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.i: cmake_force
@@ -102,7 +117,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj: Bas
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Mesh.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Mesh.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Mesh.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes\Mesh.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.i: cmake_force
@@ -117,7 +132,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj: Bas
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Rect.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Rect.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes\Rect.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Rect.cpp.i: cmake_force
@@ -132,7 +147,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.o
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/RoundedRect.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\RoundedRect.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\RoundedRect.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes\RoundedRect.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/RoundedRect.cpp.i: cmake_force
@@ -147,7 +162,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj: Ba
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Shape.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Shape.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Shapes\Shape.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes\Shape.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.i: cmake_force
@@ -162,7 +177,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: Ba
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/SourceWindow.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\SourceWindow.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\SourceWindow.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\SourceWindow.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.i: cmake_force
@@ -177,7 +192,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: BasicWin
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Window.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Objects\Window.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Objects\Window.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Window.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.i: cmake_force
@@ -188,11 +203,26 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.s"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Window.cpp -o CMakeFiles\BasicWind++.dir\Classes\Objects\Window.cpp.s
 
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/flags.make
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.cpp
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Tools\Cursor.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Tools\Cursor.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Tools\Cursor.cpp
+
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.i"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Tools\Cursor.cpp > CMakeFiles\BasicWind++.dir\Classes\Tools\Cursor.cpp.i
+
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.s"
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Tools\Cursor.cpp -o CMakeFiles\BasicWind++.dir\Classes\Tools\Cursor.cpp.s
+
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/flags.make
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Tools\Errors\Error.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Tools\Errors\Error.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Tools\Errors\Error.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.i: cmake_force
@@ -207,7 +237,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj: 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/includes_CXX.rsp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj: C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/TypeError.cpp
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj: BasicWindLib/CMakeFiles/BasicWind++.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && C:\PROGRA~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj -MF CMakeFiles\BasicWind++.dir\Classes\Tools\Errors\TypeError.cpp.obj.d -o CMakeFiles\BasicWind++.dir\Classes\Tools\Errors\TypeError.cpp.obj -c C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Tools\Errors\TypeError.cpp
 
 BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.i: cmake_force
@@ -220,6 +250,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.s: cm
 
 # Object files for target BasicWind++
 BasicWind_______OBJECTS = \
+"CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj" \
@@ -228,12 +259,14 @@ BasicWind_______OBJECTS = \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj" \
+"CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj" \
 "CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj"
 
 # External object files for target BasicWind++
 BasicWind_______EXTERNAL_OBJECTS =
 
+BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/MainWindow.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Mesh.cpp.obj
@@ -242,11 +275,12 @@ BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/O
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Shape.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj
+BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Cursor.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/Error.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.obj
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/build.make
 BasicWindLib/libBasicWind++.a: BasicWindLib/CMakeFiles/BasicWind++.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libBasicWind++.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rapha\Documents\Projet\BasicWind++\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libBasicWind++.a"
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && $(CMAKE_COMMAND) -P CMakeFiles\BasicWind++.dir\cmake_clean_target.cmake
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build\BasicWindLib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BasicWind++.dir\link.txt --verbose=$(VERBOSE)
 

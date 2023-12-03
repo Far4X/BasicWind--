@@ -11,7 +11,8 @@ public :
 
     void drawShape();
     void updateShape();
-    void dectectClick(float pos[2]);
+    void detectClick(int pos[2]);
+    void isOverflyed(int pos[2]);
 
 protected :
     float m_size[2];

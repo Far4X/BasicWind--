@@ -374,6 +374,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/iostream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/ostream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/ios \
@@ -423,4 +424,5 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Window.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_ios.tcc \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/ostream.tcc \
  C:/Program\ Files/mingw64/include/c++/13.1.0/istream \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/istream.tcc
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/windowsx.h
