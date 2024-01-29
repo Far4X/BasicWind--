@@ -9,6 +9,7 @@ public :
     Rect(Shape *m_parent, float pos[2], float size[2], float color[3]);
     ~Rect();
 
+    void drawShape(std::vector<TextHandler*> &list_text_handler);
     void drawShape();
     void updateShape();
     void detectClick(int pos[2]);

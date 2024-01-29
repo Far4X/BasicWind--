@@ -11,8 +11,8 @@ Button::~Button(){
 }
 
 void Button::isClickedOn(){
-    float new_color[3] = {255, 0, 0};
+    float new_color[3] = {1, 0.5, 0};
     this->setColor(new_color);
-    this->getWindow()->OnPaint();
+    this->getWindow()->drawShape();
     m_function();
 }

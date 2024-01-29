@@ -9,6 +9,7 @@ public :
     RoundedRect(Shape *m_parent, float pos[2], float ellipse_round[2], float size[2], float color[3]);
     ~RoundedRect();
 
+    void drawShape(TextHandler &text_handler);
     void drawShape();
     void updateShape();
 

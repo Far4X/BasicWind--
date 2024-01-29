@@ -57,8 +57,6 @@ LRESULT SourceWindow::WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lPa
 SourceWindow* SourceWindow::getThis(HWND handler_target){
     SourceWindow *ptr_target = nullptr;
     for (int i = 0; i < c_list_source_windows.size(); i++){
-        //std::cout << "Handler number " << i << " : " << c_list_source_windows[i]->getHandler() << std::endl;
-        //std::cout << "Target : " <<handler_target << std::endl;
         if (c_list_source_windows[i]->getHandler() == handler_target){
             ptr_target = c_list_source_windows[i];
         }

@@ -372,6 +372,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Shapes/Circle.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/math.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/cmath \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/math.h \

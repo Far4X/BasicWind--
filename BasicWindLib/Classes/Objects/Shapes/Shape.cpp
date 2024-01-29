@@ -16,6 +16,7 @@ Shape::Shape(Shape *parent, float pos[2]){
     }
     this->updateBrush();
     parent->addShapeToDraw(this);
+    m_hdc = nullptr;
 }
 
 Shape::Shape(Shape *parent, float pos[2], float color[3]){
@@ -31,7 +32,9 @@ Shape::Shape(Shape *parent, float pos[2], float color[3]){
 }
 
 Shape::~Shape(){
-    m_brush->Release();
+    if (m_brush != nullptr) {
+        m_brush->Release();
+    }
     m_parent = nullptr;
 }
 
@@ -69,6 +72,10 @@ void Shape::setPos(float pos[3]){
         m_pos[i] = pos[i];
     }
     this->updateShape();
+}
+
+void Shape::drawShape(std::vector<TextHandler*> &list_text_handler){
+    throw TypeError(3, "Shape can't drawShape; it's a virtual class");
 }
 
 void Shape::drawShape(){
@@ -114,7 +121,7 @@ Shape* Shape::getWindow(){
     }
 }
 
-void Shape::OnPaint(){
-    throw TypeError(6, "Shape has no corpse, connot be painted");
+HDC* Shape::getHDC(){
+    return m_hdc;
 }
 

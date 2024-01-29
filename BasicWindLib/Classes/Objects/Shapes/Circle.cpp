@@ -16,6 +16,10 @@ Circle::~Circle(){
 
 }
 
+void Circle::drawShape(std::vector<TextHandler*> &list_text_handler){
+    m_parent->getRenderTarget()->FillEllipse(m_ellipse, m_brush);
+}
+
 void Circle::drawShape(){
     m_parent->getRenderTarget()->FillEllipse(m_ellipse, m_brush);
 }

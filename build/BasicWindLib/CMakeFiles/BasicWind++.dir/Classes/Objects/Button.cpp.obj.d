@@ -373,6 +373,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/Button.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/functional \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/std_function.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/typeinfo \

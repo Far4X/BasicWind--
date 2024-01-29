@@ -373,7 +373,9 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/iostream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/ostream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/ios \
@@ -447,4 +449,6 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_heap.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/TextRect.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes/Objects/shapes/Rect.hpp

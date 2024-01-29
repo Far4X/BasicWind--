@@ -375,7 +375,9 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Document
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
   C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Cursor.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
   C:/Program\ Files/mingw64/include/c++/13.1.0/iostream \
   C:/Program\ Files/mingw64/include/c++/13.1.0/ostream \
   C:/Program\ Files/mingw64/include/c++/13.1.0/ios \
@@ -449,7 +451,9 @@ CMakeFiles/UseBasicWind++.dir/BasicWindLib/main.cpp.obj: C:/Users/rapha/Document
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_heap.h \
   C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
-  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h
+  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/TextRect.hpp \
+  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/Shapes/Rect.hpp
 
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h:
@@ -521,6 +525,8 @@ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/cxxabi_init_exception.h:
 C:/Program\ Files/mingw64/include/c++/13.1.0/ios:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/ostream:
+
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp:
 
 C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc:
 
@@ -937,6 +943,8 @@ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86intrin.h:
 C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/joystickapi.h:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h:
+
+C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Objects/TextRect.hpp:
 
 C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512vbmi2intrin.h:
 

@@ -16,6 +16,10 @@ RoundedRect::~RoundedRect(){
     
 }
 
+void RoundedRect::drawShape(TextHandler &text_handler){
+    m_parent->getRenderTarget()->FillRoundedRectangle(&m_rorect, m_brush);
+}
+
 void RoundedRect::drawShape(){
     m_parent->getRenderTarget()->FillRoundedRectangle(&m_rorect, m_brush);
 }

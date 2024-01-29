@@ -9,6 +9,7 @@ public :
     Circle(Shape *m_parent, float pos[2], float radius, float color[3]);
     ~Circle();
 
+    void drawShape(std::vector<TextHandler*> &list_text_handler);
     void drawShape();
     void updateShape();
     void detectClick(int pos[2]);

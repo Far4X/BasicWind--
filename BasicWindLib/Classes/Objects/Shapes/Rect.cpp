@@ -17,6 +17,10 @@ Rect::~Rect(){
     
 }
 
+void Rect::drawShape(std::vector<TextHandler*> &list_text_handler){
+    m_parent->getRenderTarget()->FillRectangle(&m_rect, m_brush);
+}
+
 void Rect::drawShape(){
     m_parent->getRenderTarget()->FillRectangle(&m_rect, m_brush);
 }

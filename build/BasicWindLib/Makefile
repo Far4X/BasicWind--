@@ -321,6 +321,30 @@ Classes/Objects/SourceWindow.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.s
 .PHONY : Classes/Objects/SourceWindow.cpp.s
 
+Classes/Objects/TextRect.obj: Classes/Objects/TextRect.cpp.obj
+.PHONY : Classes/Objects/TextRect.obj
+
+# target to build an object file
+Classes/Objects/TextRect.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/TextRect.cpp.obj
+.PHONY : Classes/Objects/TextRect.cpp.obj
+
+Classes/Objects/TextRect.i: Classes/Objects/TextRect.cpp.i
+.PHONY : Classes/Objects/TextRect.i
+
+# target to preprocess a source file
+Classes/Objects/TextRect.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/TextRect.cpp.i
+.PHONY : Classes/Objects/TextRect.cpp.i
+
+Classes/Objects/TextRect.s: Classes/Objects/TextRect.cpp.s
+.PHONY : Classes/Objects/TextRect.s
+
+# target to generate assembly for a file
+Classes/Objects/TextRect.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/TextRect.cpp.s
+.PHONY : Classes/Objects/TextRect.cpp.s
+
 Classes/Objects/Window.obj: Classes/Objects/Window.cpp.obj
 .PHONY : Classes/Objects/Window.obj
 
@@ -417,6 +441,30 @@ Classes/Tools/Errors/TypeError.cpp.s:
 	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/Errors/TypeError.cpp.s
 .PHONY : Classes/Tools/Errors/TypeError.cpp.s
 
+Classes/Tools/TextHandler.obj: Classes/Tools/TextHandler.cpp.obj
+.PHONY : Classes/Tools/TextHandler.obj
+
+# target to build an object file
+Classes/Tools/TextHandler.cpp.obj:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/TextHandler.cpp.obj
+.PHONY : Classes/Tools/TextHandler.cpp.obj
+
+Classes/Tools/TextHandler.i: Classes/Tools/TextHandler.cpp.i
+.PHONY : Classes/Tools/TextHandler.i
+
+# target to preprocess a source file
+Classes/Tools/TextHandler.cpp.i:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/TextHandler.cpp.i
+.PHONY : Classes/Tools/TextHandler.cpp.i
+
+Classes/Tools/TextHandler.s: Classes/Tools/TextHandler.cpp.s
+.PHONY : Classes/Tools/TextHandler.s
+
+# target to generate assembly for a file
+Classes/Tools/TextHandler.cpp.s:
+	cd /d C:\Users\rapha\Documents\Projet\BasicWind++\build && $(MAKE) $(MAKESILENT) -f BasicWindLib\CMakeFiles\BasicWind++.dir\build.make BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Tools/TextHandler.cpp.s
+.PHONY : Classes/Tools/TextHandler.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -450,6 +498,9 @@ help:
 	@echo ... Classes/Objects/SourceWindow.obj
 	@echo ... Classes/Objects/SourceWindow.i
 	@echo ... Classes/Objects/SourceWindow.s
+	@echo ... Classes/Objects/TextRect.obj
+	@echo ... Classes/Objects/TextRect.i
+	@echo ... Classes/Objects/TextRect.s
 	@echo ... Classes/Objects/Window.obj
 	@echo ... Classes/Objects/Window.i
 	@echo ... Classes/Objects/Window.s
@@ -462,6 +513,9 @@ help:
 	@echo ... Classes/Tools/Errors/TypeError.obj
 	@echo ... Classes/Tools/Errors/TypeError.i
 	@echo ... Classes/Tools/Errors/TypeError.s
+	@echo ... Classes/Tools/TextHandler.obj
+	@echo ... Classes/Tools/TextHandler.i
+	@echo ... Classes/Tools/TextHandler.s
 .PHONY : help
 
 

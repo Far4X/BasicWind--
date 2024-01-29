@@ -1,5 +1,6 @@
 #include "MainWindow.hpp"
 #include <windowsx.h>
+#include <string>
 
 Window::Window(HINSTANCE hInstance, int nCmdShow) : SourceWindow(hInstance, nCmdShow){
     m_factory = NULL;
@@ -7,6 +8,7 @@ Window::Window(HINSTANCE hInstance, int nCmdShow) : SourceWindow(hInstance, nCmd
     m_brush = NULL;
     this->WindowCreated();
     m_cursor = Cursor();
+    m_hdc = new HDC;
 }
 
 Window::~Window(){
@@ -42,7 +44,7 @@ LRESULT Window::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam){
     }
 
     case WM_PAINT :
-        this->OnPaint();
+        this->drawShape();
         return 0;
 
     case WM_SIZE :
@@ -74,23 +76,35 @@ void Window::Resize(){
     }
 }
 
-void Window::OnPaint(){
+void Window::drawShape(){
     HRESULT handler_result = this->CreateGraphicResources(); 
 
     if (SUCCEEDED(handler_result)){
         PAINTSTRUCT paint_struct;
-        BeginPaint(m_handler_window, &paint_struct);
+        *m_hdc = BeginPaint(m_handler_window, &paint_struct);
 
         m_render_target->BeginDraw();
         m_render_target->Clear(D2D1::ColorF(D2D1::ColorF::SkyBlue));
+
+        std::vector<TextHandler*> list_text_handler;
+        
         for (int i = 0; i < m_list_shapes.size(); i++){
-            m_list_shapes[i]->drawShape();
-        }        
+            m_list_shapes[i]->drawShape(list_text_handler);
+        }
+
         handler_result = m_render_target->EndDraw();
+
         if (FAILED(handler_result) || handler_result == D2DERR_RECREATE_TARGET){
             this->DiscardGraphicResources();
         }
+
+        for (int i = 0; i < list_text_handler.size(); i++){
+            TextOutA(*m_hdc, list_text_handler[i]->getX(), list_text_handler[i]->getY(), LPCSTR(list_text_handler[i]->getText().c_str()), list_text_handler[i]->getNumChar());
+        }
+
+
         EndPaint(m_handler_window, &paint_struct);
+
     }
     else {
         std::cout << "CGR error" << std::endl;

@@ -1,69 +1,21 @@
-BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
- C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\SourceWindow.cpp \
- C:/Program\ Files/mingw64/include/c++/13.1.0/vector \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/functexcept.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/exception_defines.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/cpp_type_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/ext/type_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/ext/numeric_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_pair.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/type_traits \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/move.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/utility.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator_base_types.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator_base_funcs.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/concept_check.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/debug/assertions.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/ptr_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/debug/debug.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/predefined_ops.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bit \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/allocator.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/new_allocator.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/new \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/exception.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/memoryfwd.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_construct.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/ext/alloc_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/alloc_traits.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_vector.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/initializer_list \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/functional_hash.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/refwrap.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/invoke.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_function.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/backward/binders.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/range_access.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/vector.tcc \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/memory_resource.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/cstddef \
- C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/TextRect.cpp.obj: \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\TextRect.cpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\TextRect.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\shapes/Rect.hpp \
+ C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\shapes/Shape.hpp \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2d1.h \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/unknwn.h \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpc.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/vadefs.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uses_allocator.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uses_allocator_args.h \
- C:/Program\ Files/mingw64/include/c++/13.1.0/tuple \
- C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\SourceWindow.hpp \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/excpt.h \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/corecrt.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/stdarg.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
@@ -86,6 +38,8 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86intrin.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/x86gprintrin.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/ia32intrin.h \
+ C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/adxintrin.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmiintrin.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/bmi2intrin.h \
@@ -128,6 +82,10 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/stdlib.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/cstdlib \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/stdlib.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/Program\ Files/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
@@ -265,7 +223,6 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/timeapi.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/joystickapi.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/nb30.h \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpc.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpcdce.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpcdcep.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/rpcnsi.h \
@@ -302,7 +259,6 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/objidlbase.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/cguid.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/objidl.h \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/unknwn.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/urlmon.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/oleidl.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/servprov.h \
@@ -320,8 +276,6 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:\Users\rapha\Documents\Projet\BasicWind++\BasicWindLib\Classes\Objects\Shapes/Shape.hpp \
- C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2d1.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/dcommon.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/dxgiformat.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d3d10_1.h \
@@ -340,6 +294,53 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2dbasetypes.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2derr.h \
  C:/Program\ Files/mingw64/x86_64-w64-mingw32/include/d2d1helper.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/vector \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_algobase.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/functexcept.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/exception_defines.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/cpp_type_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/ext/type_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/ext/numeric_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_pair.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/type_traits \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/move.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/utility.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator_base_types.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator_base_funcs.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/concept_check.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/debug/assertions.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_iterator.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/ptr_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/debug/debug.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/predefined_ops.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bit \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/allocator.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/new_allocator.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/new \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/exception.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/memoryfwd.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_construct.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/ext/alloc_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/alloc_traits.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_vector.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/initializer_list \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/functional_hash.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/hash_bytes.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/refwrap.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/invoke.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/stl_function.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/backward/binders.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/range_access.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/vector.tcc \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/memory_resource.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/cstddef \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uses_allocator.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/bits/uses_allocator_args.h \
+ C:/Program\ Files/mingw64/include/c++/13.1.0/tuple \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/TypeError.hpp \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/string \
@@ -372,6 +373,7 @@ BasicWindLib/CMakeFiles/BasicWind++.dir/Classes/Objects/SourceWindow.cpp.obj: \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/charconv.h \
  C:/Program\ Files/mingw64/include/c++/13.1.0/bits/basic_string.tcc \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/Errors/Error.hpp \
+ C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Users/rapha/Documents/Projet/BasicWind++/BasicWindLib/Classes/Tools/TextHandler.hpp \
  C:/Program\ Files/mingw64/include/c++/13.1.0/iostream \
  C:/Program\ Files/mingw64/include/c++/13.1.0/ostream \

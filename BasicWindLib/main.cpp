@@ -4,13 +4,14 @@
 #include "Classes/Objects/Shapes/Rect.hpp"
 #include "Classes/Objects/Shapes/RoundedRect.hpp"
 #include "Classes/Objects/Button.hpp"
+#include "Classes/Objects/TextRect.hpp"
 
 
 
 #include <iostream>
 
 void printHello(){
-    std::cout << "BTN CLKD" << std::endl;
+    std::cout << "Here we go" << std::endl;
 }
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, int nCmdShow)
@@ -34,6 +35,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pCmdLine, 
     float size3[2] = {100, 50};
 
     Button test_button(ptr_win, pos3, size3, color3, printHello);
+
+    float pos4[2] = {400.0, 400.0};
+    float color4[3] = {0.8, 0.2, 0.5};
+    float size4[2] = {100, 50};
+
+    std::string text = "Test text";
+
+    TextRect test_text(ptr_win, pos4, size4, color4, text);
+
+    std::cout << "Defined" << std::endl;
 
     ShowWindow((ptr_win->getHandler()), nCmdShow);
 

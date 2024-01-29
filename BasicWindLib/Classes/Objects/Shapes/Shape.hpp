@@ -5,6 +5,10 @@
 #include <vector>
 #include "../../Tools/Errors/TypeError.hpp"
 #include "../../Tools/Errors/Error.hpp"
+#include "../../Tools/TextHandler.hpp"
+
+
+// Virtual Root of all graphic component. handle every generic parameter such as position, color...
 
 
 class Shape{
@@ -15,6 +19,7 @@ public :
 
     ~Shape();
 
+    virtual void drawShape(std::vector<TextHandler*> &list_text_handler);
     virtual void drawShape();
     float* getColor();
     float* getPos();
@@ -25,20 +30,21 @@ public :
     virtual const HWND getHandler();
     virtual ID2D1HwndRenderTarget* getRenderTarget();
     void addShapeToDraw(Shape *new_shape);
-    std::vector<Shape*> m_list_shapes;
     virtual void detectClick(int pos[2]);
     virtual void isClickedOn();
     virtual void isOverflyed(int pos[2]);
     Shape* getWindow();
-    virtual void OnPaint();
     Shape* getParent();
+    HDC* getHDC();
 
+    ID2D1SolidColorBrush *m_brush;
+    std::vector<Shape*> m_list_shapes;
 
 protected :
     float m_pos[2];
     float m_color[3];
     Shape *m_parent;
-    ID2D1SolidColorBrush *m_brush;
+    HDC *m_hdc;
     
 
 };

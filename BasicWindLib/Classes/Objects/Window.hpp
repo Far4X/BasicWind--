@@ -8,6 +8,7 @@
 
 #include "SourceWindow.hpp"
 #include "../Tools/Cursor.hpp"
+#include "../Tools/TextHandler.hpp"
 
 #include <d2d1.h>
 #include <iostream>
@@ -19,7 +20,7 @@ public :
     Window(HINSTANCE hInstance, int nCmdShow);
     ~Window();
     ID2D1HwndRenderTarget* getRenderTarget();
-    void OnPaint();
+    void drawShape();
 
 private :
     ID2D1Factory *m_factory;
