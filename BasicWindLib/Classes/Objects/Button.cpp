@@ -13,6 +13,6 @@ Button::~Button(){
 void Button::isClickedOn(){
     float new_color[3] = {1, 0.5, 0};
     this->setColor(new_color);
-    this->getWindow()->drawShape();
+    PostMessage(this->getWindow()->getHandler(), WM_PAINT, 0, 0);
     m_function();
 }

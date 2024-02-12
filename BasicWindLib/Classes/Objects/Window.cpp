@@ -84,7 +84,7 @@ void Window::drawShape(){
         *m_hdc = BeginPaint(m_handler_window, &paint_struct);
 
         m_render_target->BeginDraw();
-        m_render_target->Clear(D2D1::ColorF(D2D1::ColorF::SkyBlue));
+        m_render_target->Clear(D2D1::ColorF(D2D1::ColorF::White));
 
         std::vector<TextHandler*> list_text_handler;
         
@@ -99,9 +99,10 @@ void Window::drawShape(){
         }
 
         for (int i = 0; i < list_text_handler.size(); i++){
-            TextOutA(*m_hdc, list_text_handler[i]->getX(), list_text_handler[i]->getY(), LPCSTR(list_text_handler[i]->getText().c_str()), list_text_handler[i]->getNumChar());
+            HRESULT hrl = TextOutA(*m_hdc, list_text_handler[i]->getX(), list_text_handler[i]->getY(), LPCSTR(list_text_handler[i]->getText().c_str()), list_text_handler[i]->getNumChar());
+            std::cout << hrl << std::endl;
         }
-
+        TextOutA(*m_hdc, 0, 0, LPCSTR("DBG"), 3);
 
         EndPaint(m_handler_window, &paint_struct);
 
